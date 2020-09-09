@@ -1,2 +1,2 @@
 //Juan Pablo Ramos 715592
-//Alfonso Ramires Castro 713932
+//Alfonso Ramirez Castro 713932

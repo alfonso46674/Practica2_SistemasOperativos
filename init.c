@@ -1,3 +1,5 @@
+//Juan Pablo Ramos 715592
+//Alfonso Ramirez Castro 713932
 #include <stdio.h>
 #include <sys/time.h>
 #include <sys/types.h>
