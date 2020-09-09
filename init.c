@@ -17,11 +17,12 @@ int main(){
         pid = fork();
 
         if(pid == 0){ // proceso hijo que fuerza su impresion en pantalla
-            printf("Prueba\n");
+        execlp("xterm", "-hola","./TestPopUp",NULL);
+          //  printf("Prueba\n");
         }else{
             i++;
             if(i==6){
-                printf("%d\n",i);
+                //printf("%d\n",i);
                 wait(&status); // esperar terminacion de procesos hijos
 
                 if(status != 0){ // al ingresar shutdown se cambia de estado
