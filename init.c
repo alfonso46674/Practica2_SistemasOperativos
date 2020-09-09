@@ -17,7 +17,7 @@ int main(){
         pid = fork();
 
         if(pid == 0){ // proceso hijo que fuerza su impresion en pantalla
-            execlp("xterm", "hola","./getty",NULL);
+            execlp("xterm", "-e","./getty",NULL);
         }else{
             i++;
             if(i==6){
