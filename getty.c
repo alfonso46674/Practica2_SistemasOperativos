@@ -73,7 +73,7 @@ int main()
         {
             p = fork();
             if (p == 0)
-                execlp("nice", "nice", "./sh", NULL, NULL);
+                execlp("nice", "nice","./sh",NULL, NULL);
 
             wait(&status);
             access = 0;
